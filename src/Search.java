@@ -8,7 +8,7 @@ public class Search {
     public static ArrayList<String> searchMatchesFromArray(String userInput, String[] keywords, int limit) {
 
         /*
-        NEW ARRAY LIST TO STORE THE SEARCH RESULTS
+        NEW ARRAY LIST TO STORE SEARCH RESULTS
          */
         ArrayList<String> searchResult = new ArrayList<>();
 
@@ -18,12 +18,12 @@ public class Search {
         Arrays.sort(keywords);
 
         /*
-        LOOP TO ITERATE THE KEYWORDS ARRAY AND SEARCH FOR COINCIDENCES AND STORE THEM INTO SEARCH RESULT ARRAY
+        LOOP TO ITERATE THROUGH THE KEYWORDS ARRAY, SEARCH FOR MATCHING KEYWORDS, AND STORE THEM IN THE SEARCH RESULT ARRAY
          */
         for (String keyword : keywords) {
 
             /*
-            IF COINCIDENCE IS FOUND, STORES IT INTO THE SEARCH RESULT ARRAY UNTIL QUANTITY LIMIT IS REACH
+            IF A MATCH IS FOUND, IT STORES IT IN THE SEARCH RESULT ARRAY UNTIL THE LIMIT IS REACHED
              */
             if (keyword.toLowerCase().startsWith(userInput.toLowerCase())) {
                 searchResult.add(keyword);
@@ -38,5 +38,4 @@ public class Search {
          */
         return searchResult;
     }
-
 }
