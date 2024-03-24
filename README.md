@@ -1,6 +1,7 @@
-Recruitment exercise for WinCom.
+RECRUITMENT EXERCISE FOR WINCOM.
 
-Introduction
+Introduction:
+
 This project represents a recruitment exercise for WinCom, showcasing my Java programming skills and problem-solving abilities.
 
 Exercise Overview:
@@ -17,8 +18,8 @@ Compilation of the program and testing instructions:
 
 Download the Project:
 
- - Download the project from the provided Email or GitHub link. Alternatively, you can clone or fork the project from the GitHub repository since it's public.
- - Once the project is downloaded and extracted (in case of downloaded direct from the Email) in a folder. You can compile and interact with the program in 2 possible ways.
+- Download the project from the provided Email or GitHub link. Alternatively, you can clone or fork the project from the GitHub repository since it's public.
+- Once the project is downloaded and extracted (in case of downloaded direct from the Email) in a folder. You can compile and interact with the program in 2 possible ways.
 
 1- First scenario (recommended): 
   
@@ -36,6 +37,7 @@ Download the Project:
 - You will see the message "PLEASE, TYPE THE CHARACTERS OF THE KEYWORD YOU'RE LOOKING FOR:". Enter the characters and press Enter to initiate the search and view the results in the terminal.
 
 Opinions: 
+
 - What would you change if the list of keywords was large (several millions)?
 
     I created the method, so it will sort into alphabetical order the list of keywords, this way the search will proceed until finding the first 4 suggestions of auto-complete matches, this way it won't do the search within the entire keywords list, it will only search the list until finding the first 4 suggestions, or the number of limit suggestions indicated.
