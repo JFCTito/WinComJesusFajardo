@@ -15,6 +15,25 @@ My program has the logic stored in the src folder with two classes, the class Ma
 
 Compilation of the program and testing instructions:
 
+Download the Project:
+
+ - Download the project from the provided Email or GitHub link. Alternatively, you can clone or fork the project from the GitHub repository since it's public.
+ - Once the project is downloaded and extracted (in case of downloaded direct from the Email) in a folder. You can compile and interact with the program in 2 possible ways.
+
+1- First scenario (recommended): 
+  
+- Open your preferred Integrated Development Environment (IDE) such as Visual Studio Code, IntelliJ IDEA, etc. 
+- Navigate to the project folder within the IDE. 
+- Once the project is open, most IDEs provide a "Play" button or a "Run" option to execute the program. Clicking this button will open a terminal or console tab within the IDE.
+- In the terminal tab, you will see the message: "PLEASE, TYPE THE CHARACTERS OF THE KEYWORD YOU'RE LOOKING FOR:". You can now enter the characters and press Enter for the program to perform the search and display the results in the terminal.
+ 
+2- Second scenario: 
+
+- Open your preferred terminal application.
+- Navigate to the directory where the project is located using the cd command.
+- Use the javac command to compile the project: "javac Main.java Search.java".
+- Once the compilation is successful, execute the program using the java command: "java Main".
+- You will see the message "PLEASE, TYPE THE CHARACTERS OF THE KEYWORD YOU'RE LOOKING FOR:". Enter the characters and press Enter to initiate the search and view the results in the terminal.
 
 Opinions: 
 - What would you change if the list of keywords was large (several millions)?
